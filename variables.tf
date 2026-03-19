@@ -20,3 +20,9 @@ variable "machine_type" {
   type        = string
   default     = "e2-medium"
 }
+
+variable "cost_center" {
+  description = "The cost center for the GCE instance."
+  type        = string
+  default     = "platform-engineering"
+}
