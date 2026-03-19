@@ -1,0 +1,9 @@
+output "instance_name" {
+  description = "The name of the created GCE instance."
+  value       = google_compute_instance.default.name
+}
+
+output "instance_ip" {
+  description = "The IP address of the created GCE instance."
+  value       = google_compute_instance.default.network_interface[0].access_config[0].nat_ip
+}
