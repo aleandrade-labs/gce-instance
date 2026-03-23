@@ -1,6 +1,6 @@
 # Terraform GCE Instance Module
 
-This Terraform module creates a Google Compute Engine (GCE) instance.
+This Terraform module creates a Google Compute Engine (GCE) instance...
 
 ## Prerequisites
 
